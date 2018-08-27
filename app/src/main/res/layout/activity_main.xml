@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.tuskan.moviestage2.activities.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/sorting_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:padding="@dimen/sort_layout_padding">
+
+        <Button
+            android:id="@+id/sort_by_popularity_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/sort_layout_padding"
+            android:text="@string/popularity"/>
+
+        <Button
+            android:id="@+id/sort_by_rating_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/sort_layout_padding"
+            android:layout_marginRight="@dimen/sort_layout_padding"
+            android:text="@string/rating"/>
+
+        <Button
+            android:id="@+id/show_favorites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/sort_layout_padding"
+            android:text="@string/favorites"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/movie_list_recycler_view">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <android.support.v4.widget.ContentLoadingProgressBar
+            android:id="@+id/loading_indicator_progressbar"
+            android:layout_width="@dimen/progress_bar_size"
+            android:layout_height="@dimen/progress_bar_size"
+            android:layout_gravity="center"
+            android:visibility="invisible"/>
+    </FrameLayout>
+
+</LinearLayout>

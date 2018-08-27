@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="primary_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/sort_layout_padding</item>
+        <item name="android:layout_marginTop">@dimen/sort_layout_padding</item>
+        <item name="android:layout_marginRight">@dimen/sort_layout_padding</item>
+        <item name="android:textSize">@dimen/primary_text_size</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="secondary_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/sort_layout_padding</item>
+        <item name="android:textSize">@dimen/secondary_text_size</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="secondary_title_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/sort_layout_padding</item>
+        <item name="android:textSize">@dimen/secondary_text_size</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="rating_style">
+        <item name="android:layout_width">@dimen/progress_bar_size</item>
+        <item name="android:layout_height">@dimen/progress_bar_size</item>
+        <item name="android:layout_marginLeft">@dimen/sort_layout_padding</item>
+        <item name="android:layout_marginTop">@dimen/sort_layout_padding</item>
+        <item name="android:layout_marginRight">@dimen/sort_layout_padding</item>
+        <item name="android:textSize">@dimen/primary_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/circle_item</item>
+        <item name="android:gravity">center</item>
+        <item name="android:alpha">0.9</item>
+    </style>
+
+    <style name="star_style">
+        <item name="android:layout_width">@dimen/progress_bar_size</item>
+        <item name="android:layout_height">@dimen/progress_bar_size</item>
+        <item name="android:layout_marginLeft">@dimen/sort_layout_padding</item>
+        <item name="android:layout_marginTop">@dimen/sort_layout_padding</item>
+        <item name="android:layout_marginRight">@dimen/sort_layout_padding</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>

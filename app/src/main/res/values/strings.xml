@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Movie Stage 2</string>
+
+    <string name="popularity">POPULARITY</string>
+    <string name="rating">RATING</string>
+    <string name="sort_by">Sort By</string>
+
+    <string name="sorting_by_popularity">Sorting by popularity.</string>
+    <string name="sorting_by_rating">Sorting by rating.</string>
+    <string name="showing_favorites">Showing your favorite movies.</string>
+    <string name="favorites">FAVORITES</string>
+</resources>
